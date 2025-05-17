@@ -8,23 +8,25 @@ How to use :
 
 1.run it with python.
 
-![{9BC9ECFB-B5C2-4084-8023-3487333604E6}](https://github.com/user-attachments/assets/a19b6b20-6039-42a3-b8aa-eb9799b7032f)
+![{E659FB85-3AC4-4A23-8F00-63C3F36962D9}](https://github.com/user-attachments/assets/4b9c9df0-ab6b-40ce-ab29-3bc8d7f5b199)
+
 
 2.give code you like.
 
-![{A77547F2-2222-4FEB-A990-55CB5C83F62A}](https://github.com/user-attachments/assets/06e4fe3a-eafc-4c53-968d-a2587404aa2e)
+![{D6E5643C-8ABD-4D50-ADAA-A698086037A0}](https://github.com/user-attachments/assets/cde54965-4e7c-4f6e-88d4-ae241ffb66d4)
+
 
 3.it will download with async, just wait.
 
-![{955B09B9-3BEB-4067-B79C-E5E9F349859F}](https://github.com/user-attachments/assets/e146805c-cbea-4a7c-bea7-d7b5094024e8)
+![{DAFA5D05-DD09-48E0-9E58-B1D5E59A4FEB}](https://github.com/user-attachments/assets/83cf122f-cce7-4377-8f2b-15b93884d471)
 
 4.it will automatically convert img to pdf and delete all downloaded image
 
-![{428BB8DF-A5C7-4635-8229-9CEDD0534F4B}](https://github.com/user-attachments/assets/907534df-7b13-4d45-a9e6-3af5522d8af8)
+![{E92DE533-8B68-4C96-8499-63546031CB14}](https://github.com/user-attachments/assets/ace9dbbf-3e0c-4473-a959-46df98aa5480)
 
 5. you will have folder named as the code and PDF inside
    
-![{BCC4D65A-A17B-4CB3-A59A-AADE10F46CBC}](https://github.com/user-attachments/assets/31f7a67f-2fe1-455b-92bd-312db676ca8b)
+![{DF5AD336-8D04-4BA7-84B9-26BA0D1FC612}](https://github.com/user-attachments/assets/cd58d01f-e997-45f6-baab-ec395f48b247)
 
 
 feel free to open issue on any error, i gladly to help.
