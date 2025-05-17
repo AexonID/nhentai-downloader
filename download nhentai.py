@@ -124,7 +124,7 @@ def jadi_gambar(tempat, berapa):
         gambars.append(img.convert("RGB"))
     return gambars
 
-def mulai(nama_gambar, folders, url_database, berapa, nama_manga):
+def mulai(nama_gambar, folders, url_database, berapa, nama_manga, async_working):
     
 
     if folders != "" :
@@ -142,7 +142,7 @@ def mulai(nama_gambar, folders, url_database, berapa, nama_manga):
         print(f"you will download {berapa} page")
         i=0
         
-        sessionx = FuturesSession(max_workers=6)
+        sessionx = FuturesSession(max_workers=async_working)
 
         futures=[]
         
@@ -261,8 +261,11 @@ def jalankan(kode_nuklirs):
 
 
     
-
-    nama_manga, servers, paths, semua  = cookies(kode_nuklir)
+    try:
+        nama_manga, servers, paths, semua  = cookies(kode_nuklir)
+    except:
+        print('error while trying connect to database')
+        exit()
     
     
     path =f"/galleries/{paths}/"
@@ -272,7 +275,7 @@ def jalankan(kode_nuklirs):
     nama_manga = nama_manga[0:len(nama_manga)-1]
     print(f'Doujin Name \n"{nama_manga}"\n')
     
-    pathkus = mulai(kode_nuklir, folders, url_database, int(semua), nama_manga)
+    mulai(kode_nuklir, folders, url_database, int(semua), nama_manga, int(6))
 
 
         
@@ -283,4 +286,7 @@ try:
 except:
     print('not a number')
 
+
+
+change_dns_requests("8.8.8.8")
 jalankan(keco)
